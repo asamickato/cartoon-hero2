@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	font-family: 'Comic Sans MS' , cursive;
+}
+
+header{
+	background-color: #ff4081;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+header h1{
+	color:  white;
+	font-size: 2.5em;
+}
+
+header img{
+	border-radius: 150px;	
+    width: 300px;
+    border: 10px solid #ff80ab;
+}
+
+.background {
+	background-image: url('../img/background1.jpg');
+	background-repeat: repeat;
+	opacity: 0.3;
+}
+
+main {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+}
+
+p, li, q {
+	font-size: 1.5em;
+}
+
+h1, h2, h3{
+	font-family: 'Powerpuff Girls', sans-serif;
+	padding-right: 5px;
+	}
+
+h2 {
+	font-size: 2.1em;
+	color: #ff4081;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 2em;
+	color: white;
+}
+/*.float-left{
+	float: left;
+	max-height: 100%;
+}*/	
+
+.grid-container {
+  display: grid;
+  /*column-gap: 50px;*/
+  grid-template-columns: auto auto auto;
+ /* background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container img {
+	/*max-width: 225px;*/
+	max-height: 320px;
+}
+
+.left-row1 {
+	background-color: #ff4081;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+
+.right-row {
+	background-color: #33A5FF;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.left-row2 {
+	background-color: #22A85F;
+	margin-top: 50px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+
+/*.grid-container img:first-child {
+	padding: 0 50px 0 0;
+}*/
+/*
+.title-right {
+	float: right;
+	margin-left: 100%;
+}
+*/
+.text-right {
+	text-align: right;
+}
+
+.grid-item1, .grid-item5 {
+	padding: 0 50px 0 0;
+}
+
+.right-picture {
+	padding: 0 0 0 50px;
+}
+
+.villains {
+	border-radius: 45px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+p.caption {
+	color: #999999;
+	font-size: 1em;
+	margin-top: 0;
+	margin-left: 50px;
+}
+
+footer {
+	background-color: #ff4081;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+/*.grid-item3 {
+	float: right;
+}*/
